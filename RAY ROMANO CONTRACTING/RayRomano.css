@@ -1,0 +1,398 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Proxima Nova',sans-serif;
+}
+main{
+    height: 645px;
+    background-image: url(./Assessts/main-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    height: 150px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+nav img{
+    height: 100px;
+    width: 100px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 10px;
+    width: 550px;
+}
+nav li{
+    letter-spacing: 2.5px;
+    font-weight: 600;
+}
+nav li:hover{
+    color: rgb(102, 100, 100);
+    cursor: pointer;
+}
+nav li:first-child{
+    color: #c2c2c2;
+}
+main section{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    height: 52%;
+    width: 70%;
+    gap: 20px;
+}
+main h1{
+    font-size: 35px;
+    font-weight: 500;
+    align-content: center;
+    letter-spacing: 7px;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 70px;
+    width: 710px;
+    padding: 20px;
+}
+main p{
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 90%;
+    padding: 20px;
+    align-content: center;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    height: 80px;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 390px;
+    gap: 18px;
+}
+.sec1 h1{
+    width: 72%;
+    font-size: 26px;
+    letter-spacing: 3px ;
+}
+.sec1 p{
+    width: 72%;
+    letter-spacing: .4px;
+    font-size: 15px;
+    line-height: 23px;
+}
+.sec2{
+    background-image: url(./Assessts/sec2-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 645px;
+}
+.sec2 h1{
+    font-size: 35px;
+    font-weight: 500;
+    align-content: center;
+    letter-spacing: 7px;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 120px;
+    width: 780px;
+    margin-left: 80px;
+    padding: 20px;
+}
+.sec2 p{
+    height: 70px;
+}
+.sec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+    gap: 16px;
+}
+.sec3 h3{
+    width: 72%;
+    font-size: 18px;
+    letter-spacing: 1px ;
+}
+.sec3 p{
+    width: 72%;
+    letter-spacing: .4px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.sec4{
+    background-image: url(./Assessts/sec4-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 645px;
+}
+.sec4 h1{
+    font-size: 35px;
+    font-weight: 500;
+    align-content: center;
+    letter-spacing: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 70px;
+    width: 250px;
+    margin-left: 80px;
+}
+.sec4 p{
+    height: 80px;
+}
+.sec5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 390px;
+    gap: 14px;
+}
+.sec5 h1{
+    width: 72%;
+    font-size: 18px;
+    letter-spacing: 1px ;
+}
+.sec5 p{
+    width: 72%;
+    letter-spacing: .4px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.sec6{
+    background-image: url(./Assessts/sec6-bg.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 645px;
+}
+.sec6 h1{
+    font-size: 35px;
+    font-weight: 500;
+    align-content: center;
+    letter-spacing: 7px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 70px;
+    width: 370px;
+    margin-left: 80px;
+}
+.sec6 p{
+    height: 80px;
+}
+.sec7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 490px;
+    gap: 18px;
+}
+.sec7 h1{
+    width: 72%;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px ;
+}
+.sec7 p{
+    width: 72%;
+    letter-spacing: .4px;
+    font-size: 13px;
+    color: #363636;
+    line-height: 22px;
+}
+.sec7 i{
+    font-weight: 600;
+}
+.sec8{
+    background-image: url(./Assessts/sec8-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 645px;
+}
+.sec8 h1{
+    font-size: 35px;
+    font-weight: 500;
+    align-content: center;
+    letter-spacing: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 70px;
+    width: 230px;
+    margin-left: 80px;
+}
+.sec8 p{
+    height: 80px;
+}
+.sec9{
+    height: 1030px;
+    position: relative;
+}
+.sec9 article{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    align-content: center;
+    column-gap: 35px;
+    row-gap: 43px;
+}
+.sec9 div{
+    height: 240px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.sec9 div:hover{
+    cursor: pointer;
+}
+.sec9 p{
+    font-size: 11px;
+    color: #363636;
+}
+.sec9 img{
+    height: 200px;
+    width: 300px;
+}
+.sec9 div:hover button{
+    opacity: 1;
+    cursor: pointer;
+}
+.sec9 button{
+    position: absolute;
+    background-color: #bd081c;
+    color: white;
+    font-size: 12px;
+    border: none;
+    height: 20px;
+    width: 50px;
+    margin: 10px;
+    opacity: 0;
+}
+.sec9 button:hover{
+    background-color: maroon;
+}
+footer{
+    height: 220px;
+    position: relative;
+}
+footer section:first-child{
+    height: 150px;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 50%;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 50px;
+    top: -30px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+footer article{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 180px;
+}
+footer article>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+footer div>div{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    font-size: 13px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+}
+footer article div:hover>div{
+    background-color: gray;
+    transition-duration: .5s;
+}
+footer article>div>div:hover{
+    background-color: white;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+footer article p{
+    font-size: 13px;
+    font-weight: 600;
+}
+a{
+    text-decoration-line: none;
+}
+a:link{
+    color: black;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+.sec10{
+    position: fixed;
+    width: 10%;
+    left: 61%;
+    top: 39%;
+    width: 500px;
+    height: 140px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 2;
+}
+.sec10 a>div{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+.sec10 span{
+    opacity: 0;
+}
+.sec10 a:hover span{
+    opacity: 1;
+    font-weight: 600;
+    letter-spacing: 3px;
+    transition-duration: .3s;
+}
+.sec10 a:hover>div{
+    background-color: white;
+    border: 2px solid;
+    height: 13px;
+    width: 13px;
+}
+.sec10 a{
+    display: flex;
+    gap: 10px;
+}
